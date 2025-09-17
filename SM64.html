@@ -7,7 +7,6 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      text-align: center;
     }
     iframe {
       width: 100%;
@@ -18,15 +17,15 @@
       position: fixed;
       top: 10px;
       left: 10px;
+      z-index: 100;
       padding: 10px 15px;
       font-size: 16px;
       cursor: pointer;
-      z-index: 1000;
     }
   </style>
 </head>
 <body>
-  <button onclick="location.href='index.html'">Back to Main Page</button>
+  <button onclick="window.location.href='index.html'">Back to Main Page</button>
   <iframe src="https://probablykam.github.io/Mario64webgl/" title="Embedded Mario64webgl website"></iframe>
 </body>
 </html>
