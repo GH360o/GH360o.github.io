@@ -17,14 +17,23 @@
       height: 100vh;
       border: none;
     }
-<button>
-  <img src="Back.png" alt="btn image" style="width:24px; height:24px;">
-</button>
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button img {
+      width: 24px;
+      height: 24px;
     }
   </style>
 </head>
 <body>
-  <button onclick="location.href='index.html'">Back to Main Page</button>
+  <button onclick="location.href='index.html'">
+    <img src="Back.png" alt="Back button">
+  </button>
+  
   <iframe src="https://irv77.github.io/hd_fnaf/1/" allow="gamepad *;"></iframe>
 </body>
 </html>
